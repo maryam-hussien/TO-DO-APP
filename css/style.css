@@ -82,3 +82,11 @@
     border: none;
     cursor: pointer;
   }
+  .title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #f44336;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin: auto;
+  }
