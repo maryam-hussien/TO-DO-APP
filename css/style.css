@@ -1,0 +1,84 @@
+.toDoApp{
+    width: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.form {
+ background-color: #eee;
+ align-items: center;
+ margin: 10px;
+ width: 500px;
+ height: 60px;
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px ;
+}
+.tasks{
+    background-color: #eee;
+    margin: 10px;
+    width: 500px;
+    min-height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px ;
+}
+.input{
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px #eee solid;
+    width: 380px;
+    height: 30px;
+
+}
+.input:focus {
+    outline: none;
+  }
+
+.add{
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.tasks .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+  }
+.tasks .task:hover {
+    background-color: #f7f7f7;
+  }
+  .tasks .task.done {
+    opacity: 0.5;
+  }
+  .del{
+    border-radius: 6px;
+    background-color: red;
+    padding: 2px 8px;
+    color: white;
+  }
+  .remove{
+    border-radius: 6px;
+    background-color: red;
+    padding: 5px 7px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
